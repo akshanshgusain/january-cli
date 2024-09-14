@@ -1,17 +1,19 @@
 <p align="center">
-  <a href=""><img src="https://github.com/akshanshgusain/january/blob/master/media/logo_dark.png?raw=true" alt="January"></a>
+  <a href="https://github.com/akshanshgusain/january"><img src="https://github.com/akshanshgusain/january/blob/master/media/logo_dark.png?raw=true" alt="January"></a>
 </p>
 <p align="center">
     <em>January is Batteries-Included Go Framework inspired by Django. Designed to ease things up for fast development.</em>
 </p>
 
+<h2 align="center">
+    This is the January-CLI executable ONLY repository.
+</h2>
+
+<h2 align="center">
+  <a href="https://github.com/akshanshgusain/january">January Framework Repository</a>
+</h2>
+
 <p align="center">
-<a href="https://github.com/fastapi/fastapi/actions?query=workflow%3ATest+event%3Apush+branch%3Amaster" target="_blank">
-    <img src="https://github.com/fastapi/fastapi/workflows/Test/badge.svg?event=push&branch=master" alt="Test">
-</a>
-<a href="https://coverage-badge.samuelcolvin.workers.dev/redirect/fastapi/fastapi" target="_blank">
-    <img src="https://coverage-badge.samuelcolvin.workers.dev/fastapi/fastapi.svg" alt="Coverage">
-</a>
 <a href="">
     <img src="https://img.shields.io/badge/january-docs-blue" alt="January Docs">
 </a>
@@ -19,30 +21,6 @@
     <img src="https://img.shields.io/github/go-mod/go-version/akshanshgusain/january" alt="Supported Go versions">
 </a>
 </p>
-
----
-
-## 🎯 Features
-
-* Robust routing
-* Serve static files
-* Easy access to multiple databases
-* Complete user authentication
-* Database migrations
-* Session support
-* Template engines
-* Generate handlers
-* Middleware support
-* Form Validation
-* CSRF protection
-* Encryption
-* Multiple Caching backends
-
----
-
-
-## 💡 Inspiration
-When teams at my organization began transitioning from Python, Node.js, and PHP to Go, we encountered a new challenge: as each developer utilized different libraries, standards, and frameworks, interoperability between teams became increasingly problematic. The January Web Framework was conceived with a "batteries-included" approach, enabling teams to swiftly integrate into the Go ecosystem while adhering to consistent standards across the organization.
 
 
 ---
@@ -52,7 +30,7 @@ When teams at my organization began transitioning from Python, Node.js, and PHP 
 January requires **Go version** `1.18` or **higher** to run. If you need to install or upgrade Go, visit the [official Go download page](https://go.dev/dl/). 
 
 To start setting up your project download the **January-CLI** tool
-from here [January-CLI](https://github.com/akshanshgusain/january-cli)
+from here [January-CLI](https://github.com/akshanshgusain/january-cli/blob/master/january-cli)
 or,
 
 **Homebrew installation**: coming soon!
@@ -358,13 +336,3 @@ func (t *ModelName) Builder(id int) ([]*ModelName, error) {
              _ = h.App.WriteJson(w, http.StatusOk, resp)
    } 
     ```
-   
-## 📆 Broken Features
-1. I will be removing the Jet Templating support, the standard library support for templating is decent.
-
-## 📆 Upcoming Features
-1. MariaDB support
-2. Live-reloads 
-3. Automatic Swagger Documentation
-4. File system support
-5. Support for Websockets, GraphQL and gRPC
