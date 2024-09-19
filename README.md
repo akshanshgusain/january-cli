@@ -17,7 +17,7 @@
 <a href="">
     <img src="https://img.shields.io/badge/january-docs-blue" alt="January Docs">
 </a>
-<a href="https://pypi.org/project/fastapi" target="_blank">
+<a href="https://tip.golang.org/doc/go1.18" target="_blank">
     <img src="https://img.shields.io/github/go-mod/go-version/akshanshgusain/january" alt="Supported Go versions">
 </a>
 </p>
